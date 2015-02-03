@@ -2,13 +2,18 @@
 
 This repository is the central repository for the Chef Push Jobs service.
 
-Currently this repository does not contain any code, as the push jobs
-code is spread out across several repositories.
+Currently this repository does not contain any code, as the push jobs code is spread out across
+several repositories.
 
 The purpose of this repository is to serve as a central place to report
-push jobs issues and to outline how to contribute to the push jobs system.
+push jobs issues and to outline how to contribute to the push jobs system. If an issue is known to
+be against a specific subsystem, you may file it against that system, but it is always appropriate
+to file push system issues here.
 
-If you need to file an issue against another Chef project, you can find a list of projects and where to file issues in the [community contributions section](https://docs.chef.io/community_contributions.html#issues-and-bug-reports) of the [Chef docs](https://docs.chef.io).
+If you need to file an issue against another Chef project, you can find a list of projects and where
+to file issues in the 
+[community contributions section](https://docs.chef.io/community_contributions.html#issues-and-bug-reports)
+of the [Chef docs](https://docs.chef.io).
 
 ## Components of the Chef Push Jobs Service
 
@@ -27,6 +32,8 @@ Following is a list of key components of the Chef Push Jobs service. This is not
 * [omnibus-chef](http://github.com/chef/omnibus-chef): Configuration for the Chef Push Jobs Client
   installation, and the project defintion for it and chef.
 * [opscode-pushy-client](http://github.com/chef/opscode-pushy-client) The ruby push jobs client
+* [push-jobs cookbook](https://github.com/opscode-cookbooks/push-jobs) Push jobs Cookbook
+
 
 #### Knife extensions
 * [knife-push](https://github.com/chef/knife-push) Knife extensions to use the push jobs service.
@@ -37,7 +44,7 @@ Following is a list of key components of the Chef Push Jobs service. This is not
   erlang used for load testing.
 * [pushy-common](https://github.com/chef/pushy_common) Common code between the simulator and the service.
 
-## Major Technologies used in Chef Server
+## Major Technologies used in Chef Push Server
 
 * Erlang
 * PostgreSQL
