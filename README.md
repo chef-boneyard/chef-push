@@ -29,11 +29,9 @@ Following is a list of key components of the Chef Push Jobs service. This is not
 * [oc-pushy-pedant](http://github.com/chef/oc-pushy-pedant) Tests for the push jobs system.
 
 #### Client
-* [omnibus-chef](http://github.com/chef/omnibus-chef): Configuration for the Chef Push Jobs Client
-  installation, and the project defintion for it and chef.
-* [opscode-pushy-client](http://github.com/chef/opscode-pushy-client) The ruby push jobs client
+* [opscode-pushy-client](http://github.com/chef/opscode-pushy-client) The ruby push jobs client as 
+  well as its installation configuration and project definition.
 * [push-jobs cookbook](https://github.com/opscode-cookbooks/push-jobs) Push jobs Cookbook
-
 
 #### Knife extensions
 * [knife-push](https://github.com/chef/knife-push) Knife extensions to use the push jobs service.
