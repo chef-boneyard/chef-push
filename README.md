@@ -1,5 +1,7 @@
 # Chef Push
 
+[![Join the chat at https://gitter.im/chef/chef-push](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/chef/chef-push?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository is the central repository for the Chef Push Jobs service.
 
 Currently this repository does not contain any code, as the push jobs code is spread out across
