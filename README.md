@@ -1,8 +1,8 @@
 # Chef Push
 
-This repository is the central repository for the Chef Push Jobs service.
+This is the central repository for the Chef Push Jobs service.
 
-Currently this repository does not contain any code, as the push jobs code is spread out across
+This repository does not contain any code, as the push jobs code is spread out across
 several repositories.
 
 The purpose of this repository is to serve as a central place to report
@@ -17,26 +17,22 @@ of the [Chef docs](https://docs.chef.io).
 
 ## Components of the Chef Push Jobs Service
 
-Following is a list of key components of the Chef Push Jobs service. This is not yet an exhaustive list.
+### Server
 
-### Commonly-Modified Components
+* [opscode-pushy-server](http://github.com/chef/opscode-pushy-server) The Erlang push jobs service.
+* [pushy-server-schema](https://github.com/opscode/pushy-server-schema) The database schema.
 
-#### Server
-* [omnibus-pushy](http://github.com/chef/omnibus-pushy): Configuration for the Chef Push Jobs Server
-  installation, and the [Omnibus](http://github.com/chef/omnibus) project definition for building it.
-* [opscode-pushy-server](http://github.com/chef/opscode-pushy-server) The erlang push jobs service.
-* [pushy-server-schema](https://github.com/opscode/pushy-server-schema) The database schema
-* [oc-pushy-pedant](http://github.com/chef/oc-pushy-pedant) Tests for the push jobs system.
+### Client
 
-#### Client
-* [opscode-pushy-client](http://github.com/chef/opscode-pushy-client) The ruby push jobs client as 
+* [opscode-pushy-client](http://github.com/chef/opscode-pushy-client) The Ruby push jobs client as
   well as its installation configuration and project definition.
-* [push-jobs cookbook](https://github.com/opscode-cookbooks/push-jobs) Push jobs Cookbook
+* [push-jobs cookbook](https://github.com/opscode-cookbooks/push-jobs) Push jobs cookbook.
 
-#### Knife extensions
-* [knife-push](https://github.com/chef/knife-push) Knife extensions to use the push jobs service.
+### Knife plugins
 
-### Less-Commonly-Modified Components
+* [knife-push](https://github.com/chef/knife-push) Knife plugin to use the push jobs service.
+
+### Common Components
 
 * [opscode-pushy-simulator](https://github.com/chef/opscode-pushy-simulator) A client simulator in
   erlang used for load testing.
@@ -49,8 +45,7 @@ Following is a list of key components of the Chef Push Jobs service. This is not
 * ZeroMQ
 
 If you're looking to contribute to certain parts of the push jobs service, familiarity with the
-following related tools is also beneficial, depending on the area.
+following related tools is also beneficial, depending on the area:
 
 * rebar (used for dependency management in Erlang)
 * sqitch (database migrations)
-
