@@ -20,7 +20,6 @@ of the [Chef docs](https://docs.chef.io).
 ### Server
 
 * [opscode-pushy-server](http://github.com/chef/opscode-pushy-server) The Erlang push jobs service.
-* [pushy-server-schema](https://github.com/opscode/pushy-server-schema) The database schema.
 
 ### Client
 
