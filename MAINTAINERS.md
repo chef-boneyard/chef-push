@@ -10,7 +10,7 @@ the process, how to become a maintainer, lieutenant, or the project lead.
 
 ## Project Lead
 
-* [Mark Anderson](http://github.com/manderson26)
+* [Mark Anderson](https://github.com/markan)
 
 ## Server
 
